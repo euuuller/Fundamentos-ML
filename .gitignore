@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Dados baixados pelos notebooks (ex.: Titanic) — a pasta fica versionada, o conteúdo não
+datasets/*
+!datasets/.gitkeep
+
+# Configurações locais do editor (Obsidian)
+.obsidian/
